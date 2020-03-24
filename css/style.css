@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Cabin&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+
+:root {
+    --biru-muda:#cae8d5;
+    --biru:#84a9ac;
+    --biru-gelap:#3b6978;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh !important;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.below-section {
+    width: 100%;
+    height: 100%;
+}
+
+h1 {
+    font-size: 3rem ;
+    margin: 50px auto 0 auto;
+    font-family: 'Pacifico', cursive;
+    color: #3b6978;
+}
+
+h2 {
+    font-size: 1.3rem;
+    margin: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    margin: 20px;
+}
+
+.subtitle{
+    font-family: 'Cabin', sans-serif;
+    color: #3b6978;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 300px;
+    bottom: 700px;
+}
+
+.top-container{
+    position: relative;
+    padding-top: 100px;
+    background-color: var(--biru-muda);
+}
+
+.middle-container{
+    background-color: var(--biru);
+}
+
+.bottom-container{
+    background-color: var(--biru-gelap);
+}
+
+.circle {
+    border-radius: 50%;
+    border: 2px solid white;
+    margin-top: 20px;
+}
+
+.btn {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 20px 2px;
+    cursor: pointer;
+}
+
+.img-box {
+    border: none;
+}
+
+footer {
+    color: white;
+}
+
+.footer-link {
+    padding: 5px;
+    margin: 2px;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+}
