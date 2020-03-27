@@ -1,1 +1,3 @@
-# simple-cv
+# CV Biru
+
+Belajar Membuat CV Sederhana
