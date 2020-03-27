@@ -16,8 +16,10 @@
 }
 
 body {
+    width: 100wh !important;
     height: 100vh !important;
     text-align: center;
+    color: #ffffff;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -35,21 +37,41 @@ h1 {
 
 h2 {
     font-size: 1.3rem;
-    margin: 20px;
+    margin: 20px 0;
     font-family: 'Montserrat', sans-serif;
 }
 
 h3 {
+    margin-top: 50px;
     font-family: 'Montserrat', sans-serif;
 }
 
 p {
     margin: 20px;
+    line-height: 2;
 }
 
 .subtitle{
     font-family: 'Cabin', sans-serif;
     color: #3b6978;
+}
+
+.intro {
+    width: 30%;
+    margin: auto;
+    padding: 30px 0px;
+}
+
+.contact-message{
+    width: 40%;
+    margin: 40px auto 40px;
+}
+
+hr {
+    border: dotted #b4dee2 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
 }
 
 .top-cloud {
@@ -76,12 +98,20 @@ p {
 
 .bottom-container{
     background-color: var(--biru-gelap);
+    padding: 25px 0 20px;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+
 }
 
 .circle {
     border-radius: 50%;
     border: 2px solid white;
-    margin-top: 20px;
+    margin-top: 50px;
 }
 
 .btn {
@@ -95,10 +125,26 @@ p {
     font-size: 16px;
     margin: 20px 2px;
     cursor: pointer;
+    margin-bottom: 50px;
 }
 
 .img-box {
     border: none;
+}
+
+
+.img-box-left {
+    width: 25%;
+    border: none;
+    float: left;
+    margin-right: 20px;
+}
+
+.img-box-right {
+    width: 25%;
+    border: none;
+    float: right;
+    margin-left: 20px;
 }
 
 footer {
@@ -111,4 +157,24 @@ footer {
     display: inline-block;
     text-decoration: none;
     color: white;
+}
+
+.footer-link:hover{
+    color: burlywood;
+}
+
+.copyright{
+    font-size: small;
+    padding: 10px 0;
+}
+
+@media (max-width: 767px){
+    .bottom-cloud{
+        display: none;
+    }
+
+    p {
+        margin: 20px;
+    }
+
 }
